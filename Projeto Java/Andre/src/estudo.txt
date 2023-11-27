@@ -1,0 +1,114 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        /* Teste 1
+        int idade = 12;
+
+        if (idade >= 18){
+            System.out.println("A pessoa é maior de idade!");
+        }else {
+            System.out.println("A pessoa não é maior de idade!");
+        }*/
+
+
+        /* Teste 2 
+        int dia_semana = 6;
+
+        if (dia_semana==1){
+            System.out.println("Segunda-feira");
+        }else if (dia_semana==2) {
+            System.out.println("Terça-feira");
+        }else if (dia_semana==3){
+            System.out.println("Quarta-feira");
+        }else if (dia_semana==4){
+            System.out.println("Quinta-feira");
+        }else if (dia_semana==5){
+            System.out.println("Sexta-feira");
+        }else if (dia_semana==6){
+            System.out.println("Sábado");
+        }else if (dia_semana==7){
+            System.out.println("Domingo");
+        }else {
+            System.out.println("Dia inválido");
+        }
+        */
+
+
+        /*Teste 3
+        int dia_semana = 6;
+
+        switch (dia_semana){
+            case 1:
+                System.out.println("Segunda");
+                break;
+            case 2:
+                System.out.println("Terça");
+                break;
+            case 3:
+                System.out.println("Quarta");
+                break;
+            case 4:
+                System.out.println("Quinta");
+                break;
+            case 5:
+                System.out.println("Sexta");
+                break;
+            case 6:
+                System.out.println("Sábado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+                System.out.println("Dia inválido");
+                break;
+        }
+        */ 
+
+        /* Teste 4 
+        for (int i = 200; i >= 100; i--){
+            System.out.println("Número "+i);
+        }
+        */
+
+        /*Teste 5
+        int i = 100;
+        while (i<=200){
+            System.out.println(i);
+            i++;
+        }
+         */
+
+        /* Teste 6
+        int idade = 0;
+        do {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Digite sua idade: ");
+
+            idade = scanner.nextInt();
+        }while (idade==0);
+        System.out.println("Sua idade é "+idade);
+         */
+
+        /*Teste 7
+         for (int i = 0; i < 10; i++){
+            if (i==5){
+                continue;
+            }
+            System.out.println(i);
+         }
+          */
+
+        /*
+        int i = 0;
+        while (true){
+            if (i==5){
+                break;
+            }
+            System.out.println(i);
+            i++;
+        }*/
+    }
+}
